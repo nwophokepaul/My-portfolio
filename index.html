@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A portfolio of web design projects created while learning HTML and CSS."
+    />
+    <title>Paul's Web Design Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Paul, home">Paul<span>.</span></a>
+        <div class="nav-links">
+          <a href="#work">Selected work</a>
+          <a href="#about">About</a>
+          <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <p class="hero-status"><span class="status-dot"></span> SIWES · Learning by building</p>
+          <h1>Curious mind.<br /><span>Creative on the web.</span></h1>
+          <p class="hero-description">
+            Hello, I’m Paul. I’m learning how to turn ideas into useful web pages with
+            HTML and CSS. Here’s a selection of what I’ve been making.
+          </p>
+          <a class="button" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <p class="hero-note">A growing collection of practice projects and experiments.</p>
+        </div>
+
+        <div class="hero-art" aria-label="A preview of my web design work">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-label label-top">DESIGN<br />IN PROGRESS</div>
+          <div class="art-window">
+            <div class="window-bar">
+              <span></span><span></span><span></span>
+              <div class="window-address">my-next-project.html</div>
+            </div>
+            <div class="window-content">
+              <div class="window-nav"><b>O.</b><i></i><i></i><i></i></div>
+              <div class="window-copy">
+                <span>IDEAS INTO INTERFACES</span>
+                <strong>Learning<br />one line<br />at a time.</strong>
+                <div class="window-button"></div>
+              </div>
+              <div class="window-shape"></div>
+            </div>
+          </div>
+          <div class="art-label label-bottom">HTML + CSS<br />STUDENT PORTFOLIO</div>
+          <div class="art-sparkle sparkle-one">✳</div>
+          <div class="art-sparkle sparkle-two">✳</div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <h2>Selected work<span>.</span></h2>
+            </div>
+            <p class="section-intro">
+              Small projects, new skills, and plenty more still to learn.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-layout">
+              <a class="project-image layout-image" href="../web2/flex.html" aria-label="Open CSS layout practice">
+                <span class="project-type">CSS EXPERIMENT</span>
+                <span class="layout-block block-a">01</span>
+                <span class="layout-block block-b">02</span>
+                <span class="layout-block block-c">03</span>
+                <span class="layout-caption">Learning how elements fit together</span>
+              </a>
+              <div class="project-info">
+                <div><h3>Layout experiments</h3><p>CSS · Flexbox · Positioning</p></div>
+                <a class="arrow-link" href="../web2/flex.html" aria-label="View layout experiments">↗</a>
+              </div>
+            </article>
+
+            <article class="project-card project-form">
+              <a class="project-image form-image" href="../Html%20table/Form.html" aria-label="Open form practice">
+                <span class="project-type">FORM DESIGN</span>
+                <span class="form-paper">
+                  <b>Let’s get started</b>
+                  <i></i><i></i>
+                  <span class="form-submit">SUBMIT&nbsp; →</span>
+                </span>
+                <span class="form-caption">Inputs · Labels · Forms</span>
+              </a>
+              <div class="project-info">
+                <div><h3>Form experiments</h3><p>HTML · Form elements · Inputs</p></div>
+                <a class="arrow-link" href="../Html%20table/Form.html" aria-label="View form experiments">↗</a>
+              </div>
+            </article>
+
+            <article class="project-card project-table">
+              <a class="project-image table-image" href="../Html%20table/index.html" aria-label="Open football table practice">
+                <span class="project-type">HTML TABLE</span>
+                <span class="table-heading">LEAGUE TABLE <b>2025</b></span>
+                <span class="league-row"><b>01</b><i></i> Arsenal <strong>26</strong></span>
+                <span class="league-row"><b>02</b><i></i> Man City <strong>22</strong></span>
+                <span class="league-row"><b>03</b><i></i> Chelsea <strong>20</strong></span>
+                <span class="table-caption">A first look at tabular data</span>
+              </a>
+              <div class="project-info">
+                <div><h3>Football league table</h3><p>HTML · Tables · Data presentation</p></div>
+                <a class="arrow-link" href="../Html%20table/index.html" aria-label="View football league table">↗</a>
+              </div>
+            </article>
+
+            <article class="project-card project-opay">
+              <a class="project-image opay-image" href="../Html%20table/Opay.html" aria-label="Open OPay website practice">
+                <span class="project-type">PAGE DESIGN</span>
+                <span class="opay-mark">O<span>Pay</span></span>
+                <span class="opay-headline">Making financial<br />services accessible.</span>
+                <span class="opay-pill">A finance landing page</span>
+              </a>
+              <div class="project-info">
+                <div><h3>Finance landing page</h3><p>HTML · Tables · Page structure</p></div>
+                <a class="arrow-link" href="../Html%20table/Opay.html" aria-label="View finance landing page">↗</a>
+              </div>
+            </article>
+
+            <article class="project-card project-pricing">
+              <a class="project-image pricing-image" href="../web2/pricing.html" aria-label="Open pricing page practice">
+                <span class="project-type">UI PRACTICE</span>
+                <span class="pricing-kicker">SIMPLE & CLEAR</span>
+                <span class="pricing-title">Pricing<br />that makes<br /><em>sense.</em></span>
+                <span class="pricing-lines"><i></i><i></i><i></i></span>
+                <span class="pricing-caption">Plans · Details · Structure</span>
+              </a>
+              <div class="project-info">
+                <div><h3>Pricing page</h3><p>HTML · CSS · Content layout</p></div>
+                <a class="arrow-link" href="../web2/pricing.html" aria-label="View pricing page">↗</a>
+              </div>
+            </article>
+
+            <article class="project-card project-chat">
+              <a class="project-image chat-image" href="../web2/Whatsapp.html" aria-label="Open WhatsApp Business practice">
+                <span class="project-type">WEB PAGE</span>
+                <span class="chat-bubble">hello! <span>●●●</span></span>
+                <span class="chat-title">Good conversations<br />start here.</span>
+                <span class="chat-decoration">↗</span>
+                <span class="chat-caption">WhatsApp Business concept</span>
+              </a>
+              <div class="project-info">
+                <div><h3>Business messaging page</h3><p>HTML · CSS · Layout practice</p></div>
+                <a class="arrow-link" href="../web2/Whatsapp.html" aria-label="View business messaging page">↗</a>
+              </div>
+            </article>
+          </div>
+          <p class="work-note">Project types are listed A–Z. These are learning exercises and recreations, not official websites.</p>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="container about-grid">
+          <div>
+            <h2>Building the basics,<br /><span>one project at a time.</span></h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              I’m a student on an SIWES placement, exploring web design through
+              hands-on practice. I enjoy seeing a blank page become something
+              organised, useful, and easy to explore.
+            </p>
+            <div class="skill-list" aria-label="Skills I am practicing">
+              <span>HTML</span><span>CSS</span><span>Page layout</span><span>Responsive design</span>
+            </div>
+            <a class="text-link" href="../web/index.html">See my first webpage <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-inner">
+        <div>
+          <h2>More to come<span>.</span></h2>
+        </div>
+        <div class="footer-meta">
+          <p>Made while learning HTML &amp; CSS</p>
+          <a href="#home">Back to top ↑</a>
+          <span>© 2026 Paul</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
